@@ -1,0 +1,17 @@
+@keyframes scale {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+#ball {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: coral;
+
+  animation-name: scale;
+  animation-duration: 3s;
+}
